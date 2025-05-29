@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Arka Fauzan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container" id="loginForm">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="checkLogin()">Login</button>
+    <p id="loginMessage" class="error"></p>
+  </div>
+
+  <div class="main-content" id="mainContent" style="display: none;">
+    <h2>Terima kasih sudah berkunjung ke website kami!</h2>
+
+    <section>
+      <h3>Alasan Menghubungi</h3>
+      <textarea placeholder="Tulis alasan Anda di sini..."></textarea>
+    </section>
+
+    <section class="actions">
+      <h3>Hubungi Saya</h3>
+      <a href="https://instagram.com/rakafauzan5149" target="_blank" class="button">Instagram</a>
+      <a href="tel:+6283144817205" class="button secondary">Kontak: 0831-4481-7205</a>
+      <a href="mailto:rakafauzan290@gmail.com" class="button">Email Saya</a>
+    </section>
+
+    <section>
+      <a href="profile.html" class="button info">Lihat Informasi Pribadi Saya</a>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
